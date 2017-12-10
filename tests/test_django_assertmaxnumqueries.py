@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `django_assertmaxnumqueries` package."""
+
+from django_assertmaxnumqueries import TransactionTestCase
 
 
-import unittest
-
-from django_assertmaxnumqueries import django_assertmaxnumqueries
-
-
-class TestDjango_assertmaxnumqueries(unittest.TestCase):
+class TestDjango_assertmaxnumqueries(TransactionTestCase):
     """Tests for `django_assertmaxnumqueries` package."""
 
     def setUp(self):

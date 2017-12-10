@@ -1,4 +1,4 @@
-Welcome to Django AssertMaxNumQueries   's documentation!
+Welcome to Django AssertMaxNumQueries's documentation!
 ======================================
 
 Contents:

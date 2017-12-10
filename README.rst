@@ -1,6 +1,6 @@
-=============================
-Django AssertMaxNumQueries   
-=============================
+==========================
+Django AssertMaxNumQueries
+==========================
 
 
 .. image:: https://img.shields.io/pypi/v/django_assertmaxnumqueries.svg

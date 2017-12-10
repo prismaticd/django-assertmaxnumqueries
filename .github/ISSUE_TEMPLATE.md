@@ -1,4 +1,4 @@
-* Django AssertMaxNumQueries    version:
+* Django AssertMaxNumQueries version:
 * Python version:
 * Operating System:
 

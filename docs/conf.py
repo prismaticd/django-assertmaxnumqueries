@@ -209,7 +209,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'django_assertmaxnumqueries.tex',
-     u'Django AssertMaxNumQueries    Documentation',
+     u'Django AssertMaxNumQueries Documentation',
      u'Prismatic Digital', 'manual'),
 ]
 
@@ -240,7 +240,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'django_assertmaxnumqueries',
-     u'Django AssertMaxNumQueries    Documentation',
+     u'Django AssertMaxNumQueries Documentation',
      [u'Prismatic Digital'], 1)
 ]
 
@@ -255,7 +255,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'django_assertmaxnumqueries',
-     u'Django AssertMaxNumQueries    Documentation',
+     u'Django AssertMaxNumQueries Documentation',
      u'Prismatic Digital',
      'django_assertmaxnumqueries',
      'One line description of project.',
