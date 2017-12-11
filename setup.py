@@ -11,17 +11,6 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [
-    # TODO: put package requirements here
-]
-
-setup_requirements = [
-    # TODO(prismaticd): put setup requirements (distutils extensions, etc.) here
-]
-
-test_requirements = [
-    # TODO: put package test requirements here
-]
 
 setup(
     name='django_assertmaxnumqueries',
@@ -33,7 +22,6 @@ setup(
     url='https://github.com/prismaticd/django_assertmaxnumqueries',
     packages=find_packages(include=['django_assertmaxnumqueries']),
     include_package_data=True,
-    install_requires=requirements,
     license="MIT license",
     zip_safe=False,
     keywords='django_assertmaxnumqueries',
@@ -50,7 +38,4 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    test_suite='tests',
-    tests_require=test_requirements,
-    setup_requires=setup_requirements,
 )
