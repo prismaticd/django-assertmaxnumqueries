@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
-__author__ = """Prismatic Digital"""
-__email__ = 'contact@prismaticdigital.com'
-__version__ = '0.1.0'
-
-
 from django.db import DEFAULT_DB_ALIAS, connections
 from django.test import testcases
 from django.test.utils import CaptureQueriesContext
+
+__author__ = """Prismatic Digital"""
+__email__ = 'contact@prismaticdigital.com'
+__version__ = '0.1.0'
 
 
 class _AssertMaxNumQueriesContext(CaptureQueriesContext):

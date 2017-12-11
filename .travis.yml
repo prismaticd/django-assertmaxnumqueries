@@ -7,6 +7,16 @@ python:
   - 3.5
   - 3.4
   - 2.7
+env:
+  - DJANGO=1.11
+  - DJANGO=2.0
+matrix:
+  exclude:
+    - python: 2.7
+      env: DJANGO=2.0
+  include:
+    - python: 2.7
+      env: TOXENV=flake8
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
