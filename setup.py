@@ -14,7 +14,7 @@ with open('HISTORY.rst') as history_file:
 
 setup(
     name='django_assertmaxnumqueries',
-    version='0.1.0',
+    version='0.1.1',
     description="Provides a Django TransactionTestCase.assertMaxNumQueries(), "
                 " analogous to the existing TransactionTestCase.assertNumQueries()",
     long_description=readme + '\n\n' + history,
