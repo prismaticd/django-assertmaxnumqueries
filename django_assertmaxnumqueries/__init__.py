@@ -6,7 +6,7 @@ from django.test.utils import CaptureQueriesContext
 
 __author__ = """Prismatic Digital"""
 __email__ = 'contact@prismaticdigital.com'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 
 class _AssertMaxNumQueriesContext(CaptureQueriesContext):
