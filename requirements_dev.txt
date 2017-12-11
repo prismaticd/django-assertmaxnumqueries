@@ -1,4 +1,11 @@
+pip
 Django
 coverage
 flake8
 tox
+bumpversion
+wheel
+watchdog
+Sphinx
+cryptography
+PyYAML
