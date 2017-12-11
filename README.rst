@@ -3,18 +3,18 @@ Django AssertMaxNumQueries
 ==========================
 
 
-.. image:: https://img.shields.io/pypi/v/django_assertmaxnumqueries.svg
-        :target: https://pypi.python.org/pypi/django_assertmaxnumqueries
+.. image:: https://img.shields.io/pypi/v/django-assertmaxnumqueries.svg
+        :target: https://pypi.python.org/pypi/django-assertmaxnumqueries
 
-.. image:: https://img.shields.io/travis/prismaticd/django_assertmaxnumqueries.svg
-        :target: https://travis-ci.org/prismaticd/django_assertmaxnumqueries
+.. image:: https://img.shields.io/travis/prismaticd/django-assertmaxnumqueries.svg
+        :target: https://travis-ci.org/prismaticd/django-assertmaxnumqueries
 
 .. image:: https://readthedocs.org/projects/django-assertmaxnumqueries/badge/?version=latest
         :target: https://django-assertmaxnumqueries.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/prismaticd/django_assertmaxnumqueries/shield.svg
-     :target: https://pyup.io/repos/github/prismaticd/django_assertmaxnumqueries/
+.. image:: https://pyup.io/repos/github/prismaticd/django-assertmaxnumqueries/shield.svg
+     :target: https://pyup.io/repos/github/prismaticd/django-assertmaxnumqueries/
      :alt: Updates
 
 
