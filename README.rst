@@ -18,17 +18,32 @@ Django AssertMaxNumQueries
      :alt: Updates
 
 
-Provides a Django TransactionTestCase.assertMaxNumQueries(), analogous to the existing TransactionTestCase.assertNumQueries()
+Provides a mixin and TransactionTestCase subclass with assertMaxNumQueries(),
+    analogous to  `django.test.TransactionTestCase.assertNumQueries`_
 
 
 * Free software: MIT license
 * Documentation: https://django-assertmaxnumqueries.readthedocs.io.
 
 
-Features
---------
+Usage
+-----
 
-* TODO
+Usage is identical to `django.test.TransactionTestCase.assertNumQueries`_ ,
+except check on the number of queries is `assertLessEqual` insert of `assertEqual`.
+
+To use Django AssertMaxNumQueries in a project::
+
+    import django_assertmaxnumqueries
+
+
+    class MyTestCase(django_assertmaxnumqueries.TransactionTestCase):
+
+        def test_my_test(self):
+            with self.assertMaxNumQueries(2):
+                Person.objects.create(name="Aaron")
+                Person.objects.create(name="Daniel")
+
 
 Credits
 ---------
@@ -37,4 +52,5 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`django.test.TransactionTestCase.assertNumQueries`: https://docs.djangoproject.com/en/1.11/topics/testing/tools/#django.test.TransactionTestCase.assertNumQueries
 
